@@ -81,7 +81,10 @@ def cadastro():
 
     botaoSalvar.pack(padx=10,pady=10)
 
-
+def loginUsuario():
+    nomeUsuario = inputUsername.get()
+    senhaUsuario = inputSenha.get()
+    if nomeUsuario in listaPessoas
 
 #Função responsavel por exibir a janela principal do usuario, essa janela vai mostrar dados de usuario, recomendação de treino baseados nas informações descritas(Lesões do usuario,Alimentação baseada em dieta,treino recomendados e suplementação recomendada.) 
 def janelaDashboard():
