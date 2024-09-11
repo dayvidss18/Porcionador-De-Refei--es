@@ -39,6 +39,9 @@ def cadastro():
         telefonePessoa = inputTelefonePessoa.get()
         pesoPessoa = inputPesoPessoa.get()
         alturaPessoa = inputAlturaPessoa.get()
+        senha1 = inputSenhaUsuario.get()
+        senha2 = inputSenhaUsuarioNovamente.get()
+
         
         #Metodo para inserir os dados do usuario na listaPessoas
         listaPessoas.append({
